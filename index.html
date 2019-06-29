@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://vjs.zencdn.net/6.4.0/video-js.css" rel="stylesheet">
+    <!-- DE CDN HIERONDER IS VOOR HET HAMBURGER MENU ICOONTJE! -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Eindopdracht Blok 1.4</title>
+
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="assets/logosvg.svg" alt="logo">
+        <div class="menu-toggle"></div>
+        <nav>
+            <!-- <img id="logo" src="assets/logosvg.svg" alt="logo"> -->
+
+            <ul>
+
+
+
+                <li><a href="#">OVER ONS</a></li>
+                <li><a href="#">LESMATERIAAL</a></li>
+                <li><a href="#">CONTACT</a></li>
+
+            </ul>
+
+
+        </nav>
+
+        <div class="clear"></div>
+
+    </header>
+    <main>
+
+        <section class="hero">
+
+            <div class="heroTekst">
+                <h1>Van beginner naar expert <br /> Het lesmateriaal brengt je verder</h1>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem
+                    malesuada
+                    magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi
+                    porta
+                    gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                <div class="clear"></div>
+            </div>
+        </section>
+
+
+
+        <section class="playlistBox">
+
+            <h2 class="sectionTitle">Playlist</h2>
+
+            <div id="accordion">
+
+                <section class="wrapper">
+
+                    <div class="accordionTab">
+
+                        <h3>Algemene Introductie</h3>
+
+                        <button class="introBtn">INTRO</button>
+
+                        <button class="doneLabel"></button>
+
+                        <div class="clear"></div>
+
+                    </div>
+
+                    <div class="accordion-content">
+
+                        <video id="video1" class="video-js" data-setup='{"fluid": true}'>
+                            <source src="videos/1.mp4">
+                            <p class='vjs-no-js'>
+                                To view this video please enable JavaScript, and consider upgrading to a web browser
+                                that
+                                <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5
+                                    video</a>
+                            </p>
+                        </video>
+
+
+                        <button class="playPause"></button>
+                        <button class="rewind"></button>
+                        <button class="videoDone"></button>
+
+                    </div>
+
+
+                </section>
+
+                <section class="wrapper">
+
+                    <div class="accordionTab">
+
+                        <h3>Workshop 1: Kleuren met code</h3>
+
+                        <button class="workshopBtn">WORKSHOP</button>
+
+                        <button class="downloadBtn">
+                            <h7>DOWNLOADS</h7>
+                        </button>
+
+                        <button class="doneLabel"></button>
+
+                        <div class="clear"></div>
+
+                    </div>
+
+                    <div class="accordion-content">
+
+                        <video id="video2" class="video-js" data-setup='{"fluid": true}'>
+                            <source src="videos/2.mp4">
+                            <p class='vjs-no-js'>
+                                To view this video please enable JavaScript, and consider upgrading to a web browser
+                                that
+                                <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5
+                                    video</a>
+                            </p>
+                        </video>
+
+                        <button class="playPause"></button>
+                        <button class="rewind"></button>
+                        <button class="videoDone"></button>
+
+                    </div>
+
+
+                </section>
+
+                <section class="wrapper">
+
+                    <div class="accordionTab">
+
+                        <h3>Workshop 2: Vormen maken</h3>
+
+                        <button class="workshopBtn">WORKSHOP</button>
+
+                        <button class="doneLabel"></button>
+
+                    </div>
+
+                    <div class="accordion-content">
+                        <video id="video3" class="video-js" data-setup='{"fluid": true}'>
+                            <source src="videos/3.mp4">
+                            <p class='vjs-no-js'>
+                                To view this video please enable JavaScript, and consider upgrading to a web browser
+                                that
+                                <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5
+                                    video</a>
+                            </p>
+                        </video>
+
+                        <button class="playPause"></button>
+                        <button class="rewind"></button>
+                        <button class="videoDone"></button></div>
+
+                </section>
+
+                <section class="wrapper">
+
+                    <div class="accordionTab">
+
+                        <h3>Workshop 3: Beweging</h3>
+
+                        <button class="workshopBtn">WORKSHOP</button>
+
+                        <button class="downloadBtn">
+                            <h7>DOWNLOADS</h7>
+                        </button>
+
+                        <button class="doneLabel"></button>
+
+                        <div class="clear"></div>
+
+                    </div>
+
+                    <div class="accordion-content">
+                        <video id="video4" class="video-js" data-setup='{"fluid": true}'>
+                            <source src="videos/4.mp4">
+                            <p class='vjs-no-js'>
+                                To view this video please enable JavaScript, and consider upgrading to a web browser
+                                that
+                                <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5
+                                    video</a>
+                            </p>
+                        </video>
+
+                        <button class="playPause"></button>
+                        <button class="rewind"></button>
+                        <button class="videoDone"></button></div>
+
+                </section>
+
+                <section class="wrapper">
+
+                    <div class="accordionTab">
+
+                        <h3>Workshop 4: Variabelen gebruiken</h3>
+
+                        <button class="workshopBtn">WORKSHOP</button>
+
+                        <button class="doneLabel"></button>
+
+                        <div class="clear"></div>
+
+                    </div>
+
+                    <div class="accordion-content">
+                        <video id="video5" class="video-js" data-setup='{"fluid": true}'>
+                            <source src="videos/5.mp4">
+                            <p class='vjs-no-js'>
+                                To view this video please enable JavaScript, and consider upgrading to a web browser
+                                that
+                                <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5
+                                    video</a>
+                            </p>
+                        </video>
+
+                        <button class="playPause"></button>
+                        <button class="rewind"></button>
+                        <button class="videoDone"></button></div>
+
+            </div>
+
+        </section>
+
+        </div>
+
+        </section>
+
+        <section class="support">
+            <div class="supportTekst">
+                <h2>Support</h2>
+                <h1 class="supportHeading">Kom je er niet uit? <br> Wij helpen je graag verder </h1>
+            </div>
+
+
+            <div class="persoonLinks">
+                <img class="profielFoto" src="img/src/werknemer1.jpg" alt="">
+                <div class="info">
+                    <p class="naam">Klaartje Klaassen</p>
+                    <p class="hoofdcontactpersoon">Hoofd Contactpersoon</p>
+                    <button class="email">EMAIL</button>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="persoonRechts">
+                <img class="profielFoto" src="img/src/werknemer2.jpg" alt="">
+                <div class="info">
+                    <p class="naam">Klaartje Klaassen</p>
+                    <p class="hoofdcontactpersoon">Hoofd Contactpersoon</p>
+                    <button class="email">EMAIL</button>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="persoonLinks">
+                <img class="profielFoto" src="img/src/werknemer3.jpg" alt="">
+                <div class="info">
+                    <p class="naam">Klaartje Klaassen</p>
+                    <p class="hoofdcontactpersoon">Hoofd Contactpersoon</p>
+                    <button class="email">EMAIL</button>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="persoonRechts">
+                <img class="profielFoto" src="img/src/werknemer4.jpg" alt="">
+                <div class="info">
+                    <p class="naam">Klaartje Klaassen</p>
+                    <p class="hoofdcontactpersoon">Hoofd Contactpersoon</p>
+                    <button class="email">EMAIL</button>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+
+        </section>
+
+
+        <section class="banner">
+            <h1>Klaar voor de <br>
+                volgende uitdaging?</h1>
+
+            <!--MET BR MAG JE GEEN LIJNEN BREKEN DUS ALTERNATIEF ZOEKEN-->
+
+            <p>In ons expertprogramma vind je lessen voor gevorderden </p>
+
+            <button class="calltoaction">KOM MAAR OP</button>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="togglePosition">
+            <input type="checkbox" id="switch">
+            <h5>SWITCH THEME</h5>
+            <div class="clear"></div>
+        </div>
+
+
+    </footer>
+
+    <div class="modal-bg">
+        <div class="modal">
+            <button class="modalClose"><img class="close" src="assets/close.svg" alt="close icon"></button>
+            <!-- MODAL ANIMATIE -->
+            <h4 class="typing"></h4>
+        </div>
+
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="https://vjs.zencdn.net/6.4.0/video.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

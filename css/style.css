@@ -1,0 +1,735 @@
+@font-face {
+    font-family: MontserratBold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlayfairBold;
+    src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+
+body, main {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    background: white;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 80px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #1D00FF;
+    font-family: MontserratBold;
+    margin: 35px 0;
+}
+
+#logo {
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.menu-toggle {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    ;
+    margin: 25px 30px 20px 0;
+    display: none;
+    text-align: center;
+    cursor: pointer;
+    color: #1D00FF;
+    font-size: 1.4em;
+}
+
+.hero {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(29, 0, 255, 0.8), rgba(0, 118, 255, 0.8)), url('../img/src/header.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: PlayfairBold;
+    line-height: 140%;
+    font-size: 3.2em;
+    padding-top: 50px;
+    color: white;
+}
+
+.heroTekst p {
+    font-family: MontserratRegular;
+    margin-top: 15px;
+    text-align: left;
+    line-height: 150%;
+    font-size: 0.9em;
+    color: white;
+    width: 80%;
+}
+
+.heroTekst {
+    width: 55.55%;
+    margin: 0 auto;
+}
+
+.playlistBox {
+    width: 83.88%;
+    margin: auto;
+    background: white;
+    margin-top: -13%;
+    position: relative;
+    z-index: 3;
+}
+
+.accordionTab {
+    width: 90.14%;
+    height: 100px;
+    margin: 0 auto -1px auto;
+    background: white;
+    border: 1px solid #EBEBEB;
+}
+
+.sectionTitle {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #1D00FF;
+    font-family: MontserratBold;
+    margin: 0 auto;
+    width: 90.14%;
+}
+
+h3 {
+    color: #4B4B4B;
+    font-family: MontserratBold;
+    font-size: 1em;
+    padding-left: 80px;
+    position: relative;
+    top: 41%;
+}
+
+.accordionTab {
+    width: 90.14%;
+    height: 74px;
+}
+
+.introBtn {
+    float: right;
+    font-family: MontserratBold;
+    font-size: 1em;
+    width: 114px;
+    height: 40px;
+    background-color: #FFAFE3;
+    color: #CC0085;
+    margin-right: 20px;
+    border: none;
+    border-radius: 33px;
+}
+
+.workshopBtn {
+    float: right;
+    font-family: MontserratBold;
+    font-size: 1em;
+    width: 146px;
+    height: 40px;
+    background-color: #D1E7FF;
+    color: #1D00FF;
+    margin-right: 20px;
+    border: none;
+    border-radius: 33px;
+}
+
+.downloadBtn {
+    float: right;
+    width: 195px;
+    height: 40px;
+    background-color: black;
+    margin-right: 30px;
+    border: none;
+    border-radius: 10px;
+    background-image: url(../assets/download.svg);
+    background-repeat: no-repeat;
+    background-position-x: 21px;
+    background-position-y: 10px;
+    cursor: pointer;
+}
+
+.downloadBtn h7 {
+    font-family: MontserratBold;
+    font-size: 1.3em;
+    color: white;
+    margin-left: 25px;
+}
+
+.doneLabel {
+    float: right;
+    margin-right: 30px;
+    width: 82px;
+    height: 40px;
+    background-color: #BBFFB2;
+    border: none;
+    border-radius: 33px;
+    background-image: url(../assets/done.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    background-size: 40%;
+}
+
+.accordion-content {
+    width: 90.14%;
+    margin: 0 auto;
+    padding: 1px 0px 1px 0px;
+    position: relative;
+}
+
+.ui-accordion-header {
+    color: #4B4B4B;
+    background-image: url(../assets/arrow-uit.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 2%;
+}
+
+.ui-accordion-header-active {
+    color: #1D00FF;
+    border: 2px solid #1D00FF;
+    background-image: url(../assets/arrow-aan.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 2%;
+    background-position-y: 17px;
+}
+
+.support {
+    margin: 120px auto;
+    width: 75.62%;
+}
+
+.supportTekst h2 {
+    color: blue;
+    font-family: MontserratBold;
+}
+
+.supportHeading {
+    font-family: PlayfairBold;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: blue;
+}
+
+.persoonLinks {
+    float: left;
+}
+
+.profielFoto {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.info {
+    padding-top: 70px;
+    padding-left: 20px;
+    float: right;
+}
+
+.naam {
+    font-family: MontserratBold;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.hoofdcontactpersoon {
+    font-family: MontserratRegular;
+    padding-bottom: 15px;
+    color: #EBEBEB;
+    font-size: 1.1em;
+}
+
+.email {
+    font-family: MontserratBold;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.persoonRechts {
+    float: right;
+}
+
+.banner {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(to right, rgba(255, 175, 227, 0.8), rgba(204, 0, 133, 0.8)), url('../img/src/banner.jpg');
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+}
+
+.banner p {
+    font-family: MontserratRegular;
+    width: 38.19%;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 24px;
+    font-size: 0.9em;
+    color: white;
+}
+
+.calltoaction {
+    padding: 15px 30px;
+    letter-spacing: 0.1em;
+    color: #FFAFE3;
+    background: #1D00FF;
+    margin: 60px auto;
+    display: block;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: MontserratBold;
+    font-size: 0.8em;
+}
+
+footer {
+    width: 100%;
+    height: 126px;
+    background: black;
+}
+
+#accordion a {
+    margin: 0px;
+    background: none;
+    padding: 0px;
+}
+
+.togglePosition {
+    padding-top: 40px;
+    padding-right: 30px;
+}
+
+#switch {
+    position: relative;
+    width: 78px;
+    height: 40px;
+    -webkit-appearance: none;
+    background: #EBEBEB;
+    outline: none;
+    border-radius: 20px;
+    float: right;
+    background-image: url(../assets/sun.svg);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+}
+
+#switch:checked {
+    background: #EBEBEB;
+    background-image: url(../assets/moon.svg);
+    background-repeat: no-repeat;
+    background-position: 45px 6px;
+}
+
+#switch::before {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: white;
+    border-radius: 20px;
+    top: 2px;
+    left: 40px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+#switch:checked::before {
+    left: 0;
+}
+
+h5 {
+    font-family: MontserratBold;
+    color: white;
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    font-size: 0.8em;
+}
+
+.playPause {
+    width: 8.3%;
+    height: 14.7%;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: none;
+    top: 38%;
+    left: 45%;
+    background-image: url(../assets/play-btn.svg);
+    background-size: cover;
+}
+
+.pause {
+    background-image: url(../assets/pause-btn.svg);
+    background-size: cover;
+}
+
+.rewind {
+    width: 5.6%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    background-image: url(../assets/rewind-btn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    top: 40%;
+    left: 38%;
+}
+
+.videoDone {
+    background: #BBFFB2;
+    width: 5.6%;
+    height: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-image: url(../assets/check-btn.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: none;
+    top: 40%;
+    left: 55%;
+}
+
+.accordion-content:hover .playPause {
+    display: inline-block;
+}
+
+.accordion-content:hover .rewind {
+    display: inline-block;
+}
+
+.accordion-content:hover .videoDone {
+    display: inline-block;
+}
+
+.modal-bg {
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.modal {
+    margin: 8% auto;
+    padding: 20px;
+    background: #BBFFB2;
+    width: 40%;
+    height: 320px;
+    background-image: url(../assets/confetti.gif);
+}
+
+.modal h4 {
+    font-family: MontserratBold;
+    font-size: 5vw;
+    color: #119100;
+    line-height: 110%;
+}
+
+.modalClose {
+    background: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.close {
+    width: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.dark {
+    background-color: black;
+}
+
+.dark header {
+    background-color: black;
+}
+
+.dark nav {
+    background: black;
+}
+
+.dark a {
+    color: white;
+}
+
+.dark h4 {
+    color: white;
+}
+
+.dark h1 {
+    color: white;
+}
+
+.dark .naam {
+    color: white;
+}
+
+.dark h2 {
+    color: white;
+}
+
+.dark .menu-toggle {
+    color: white;
+}
+
+.dark .email {
+    background-color: white;
+    color: black;
+}
+
+.dark h3 {
+    color: white;
+}
+
+.dark .accordionTab {
+    background-color: black;
+}
+
+.dark .ui-accordion-header {
+    color: white;
+    background-image: url(../assets/arrowwit.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 20px;
+}
+
+.dark .ui-accordion-header-active {
+    color: #1D00FF;
+    border: 2px solid #1D00FF;
+    background-image: url(../assets/arrow-aan.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 20px;
+    background-position-y: 17px;
+}
+
+.dark .playlistBox {
+    background-color: black;
+}
+
+@media only screen and (max-width: 887px) {
+    h3 {
+        font-size: 0.7em;
+        line-height: 18px;
+    }
+    .downloadBtn {
+        display: none;
+    }
+    .doneLabel {
+        width: 51px;
+        height: 30px;
+    }
+    .workshopBtn {
+        width: 109.5px;
+        height: 30px;
+        font-size: 0.75em;
+    }
+    .introBtn {
+        width: 85.5px;
+        height: 30px;
+        font-size: 0.75em;
+    }
+    .persoonLinks {
+        float: none;
+    }
+    .persoonRechts {
+        float: none;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    .menu-toggle:before {
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    .menu-toggle.active:before {
+        content: '\f00d ';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    nav {
+        display: none;
+    }
+    nav.active {
+        display: block;
+        width: 100%;
+    }
+    nav.active ul {
+        display: block;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 414px) {
+    .sectionTitle {
+        font-size: 0.8em;
+    }
+    h3 {
+        font-size: 0.65em;
+        padding-left: 55px;
+        top: 36%;
+    }
+    .sectionTitle {
+        font-size: 0.8em;
+    }
+    .banner {
+        height: 400px;
+    }
+    .banner p {
+        font-size: 0.8em;
+        width: 45%;
+        line-height: 22px;
+    }
+    .calltoaction {
+        margin-top: 40px;
+    }
+    .support p {
+        font-size: 0.8em;
+    }
+    .support h4 {
+        font-size: 0.8em;
+    }
+    .supportHeading {
+        padding-bottom: 0px;
+    }
+    .profielFoto {
+        width: 50%;
+        margin-bottom: 0px;
+        margin-top: 70px;
+    }
+    .info {
+        padding-top: 20px;
+        padding-left: 10px;
+        float: none;
+        font-size: 1.15em;
+    }
+    .workshopBtn, .introBtn {
+        display: none;
+    }
+    .downloadBtn {
+        display: none;
+    }
+    h1 {
+        font-size: 7vw;
+    }
+    .heroTekst p {
+        font-size: 3.5vw;
+        width: 100%;
+    }
+
+    .modal{
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width:415px) and (max-width: 633px) {
+    .info {
+        font-size: 0.6em;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .profielFoto {
+        width: 130px;
+    }
+    .workshopBtn, .introBtn {
+        display: none;
+    }
+    .downloadBtn {
+        display: none;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    .heroTekst p {
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    .modal{
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width:634px) and (max-width:1160px) {
+    .info {
+        font-size: 0.7em;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+    .profielFoto {
+        width: 130px;
+    }
+    .downloadBtn {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4.9vw;
+    }
+    .heroTekst p {
+        font-size: 0.7em;
+        width: 100%;
+    }
+}
